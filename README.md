@@ -307,17 +307,10 @@ docker --version
 ```bash
 systemctl start mariadb
 systemctl enable mariadb
-mysql_secure_installation
+
 ```
 
-Create database and user:
 
-```sql
-CREATE DATABASE appdb;
-CREATE USER 'appuser'@'localhost' IDENTIFIED BY 'StrongPassword123!';
-GRANT ALL PRIVILEGES ON appdb.* TO 'appuser'@'localhost';
-FLUSH PRIVILEGES;
-```
 
 ---
 
@@ -340,8 +333,8 @@ vi .env
 Update `.env` with:
 
 ```env
-DATABASE_URL=mysql://appuser:StrongPassword123!@127.0.0.1:3306/appdb
-DATABASE_PASSWORD=StrongPassword123!
+DATABASE_URL=<database url>
+DATABASE_PASSWORD=<database password>
 ```
 
 Build and run backend:
