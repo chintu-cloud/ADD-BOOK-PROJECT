@@ -1,0 +1,51 @@
+version: "3"
+services:
+  frontend:
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+    container_name: frontend-app
+    ports:
+      - "80:80"
+    networks:
+      - appnet
+    depends_on:
+      - backend
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: backend-app
+    ports:
+      - "84:80"
+    environment:
+      - DB_HOST=mysql
+      - DB_USERNAME=admin
+      - DB_PASSWORD=Devops123
+      - DB_PORT=3306
+    networks:
+      - appnet
+    depends_on:
+      - mysql
+
+  mysql:
+    build:
+      context: ./mysql
+      dockerfile: Dockerfile
+    container_name: mysql-db
+    environment:
+      - MYSQL_ROOT_PASSWORD=Cloud122
+      - MYSQL_DATABASE=test
+      - MYSQL_USER=admin
+      - MYSQL_PASSWORD=Devops123
+    ports:
+      - "3306:3306"
+    networks:
+      - appnet
+    # volumes:
+    #   - ./mysql_data:/var/lib/mysql
+
+networks:
+  appnet:
+    driver: bridge
