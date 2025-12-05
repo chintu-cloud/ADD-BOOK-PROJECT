@@ -1,7 +1,6 @@
 # 🎯📚 Add Book+ Project — Simplifying Book Management
 
-<img width="1273" height="658" alt="Untitled Diagram drawio (1)" src="https://github.com/user-attachments/assets/5816c947-956d-49d5-aef6-38e8c90f1dc8" />
-
+<img width="1273" height="658" alt="Untitled Diagram drawio (1)" src="https://github.com/user-attachments/assets/8ec3c525-64c1-4d45-a2bb-c7fd54091208" />
 
 
 # 📚 Infrastructure Setup
