@@ -3,7 +3,7 @@
 <img width="1273" height="658" alt="Untitled Diagram drawio (1)" src="https://github.com/user-attachments/assets/8ec3c525-64c1-4d45-a2bb-c7fd54091208" />
 
 
-# 📚 Infrastructure Setup
+# 📚 Infrastructure Setup -- Manual Process
 
 This guide walks through the complete setup of the **BOOK+ Project** on AWS, including VPC, subnets, route tables, NAT gateway, security groups, EC2 instances, RDS, backend, frontend, load balancers, and Route53.
 
@@ -242,7 +242,7 @@ Open your domain in the browser → **BOOK+ Project is live!** 🎉
 ---
 ##  Using Docker Deploy Book Peoject
 
-<img width="1200" height="633" alt="image" src="https://github.com/user-attachments/assets/25e8e5d2-1775-44a6-8005-04b13a3446ef" />
+<img width="960" height="794" alt="image" src="https://github.com/user-attachments/assets/672a6eab-8ba9-43c7-b25c-b5d176117715" />
 
 
 
