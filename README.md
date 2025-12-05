@@ -389,7 +389,8 @@ Example:
 Frontend → http://172.132.39.73:83
 Backend  → http://172.132.39.73:84
 ```
-<img width="1920" height="1080" alt="Screenshot (470)" src="https://github.com/user-attachments/assets/23b746a7-3e87-4167-9da0-7a9fc7d7cab7" />
+<img width="1920" height="1080" alt="Screenshot (470)" src="https://github.com/user-attachments/assets/f21c5644-e205-4f72-be66-b4e4dfe73b14" />
+
 
 ---
 
