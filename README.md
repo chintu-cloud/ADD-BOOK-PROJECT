@@ -234,15 +234,16 @@ sudo cp -r build/* /var/www/html
 
 # ✅ Final Step
 Open your domain in the browser → **BOOK+ Project is live!** 🎉
+<img width="1920" height="1080" alt="Screenshot (251)" src="https://github.com/user-attachments/assets/6a6481d2-5cea-44bb-888b-a7d240a733d2" />
 
-<img width="1920" height="1080" alt="Screenshot (251)" src="https://github.com/user-attachments/assets/b1089574-244d-480e-847b-a093d92f22d1" />
 
 
 
 ---
 ##  Using Docker Deploy Book Peoject
 
-<img width="960" height="794" alt="image" src="https://github.com/user-attachments/assets/672a6eab-8ba9-43c7-b25c-b5d176117715" />
+<img width="3840" height="2160" alt="image" src="https://github.com/user-attachments/assets/07688bd6-6019-4395-b7a2-9149bb9c6672" />
+
 
 
 
